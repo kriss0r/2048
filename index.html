@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="https://cdn.ceusmedia.de/js/jquery/1.10.2.min.js"></script>
+		<script src="script.js"></script>
+		<script>jQuery(document).ready(function(){Game.init()});</script>
+		<link rel="stylesheet" href="https://cdn.ceusmedia.de/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="hero-unit">
+				<h2>2048</h2>
+				<p>A very simple implementation.</p>
+			</div>
+			<div class="row-fluid">
+				<div class="span6">
+					<div id="game" class="game-board"></div>
+				</div>
+				<div class="span6">
+					<h3>Rules</h3>
+					<ul>
+						<li>Use the arrow keys to move pieces.</li>
+						<li>Pieces of same value will combine.</li>
+						<li>Aim: Try to get a piece of value 2048.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
